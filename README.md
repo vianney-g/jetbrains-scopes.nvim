@@ -5,7 +5,7 @@ Author: Vianney Gremmel
 
 **Make the Jetbrains scopes available in telescope.nvim**
 
- You (or some of your colleagues) are using Jetbrains Scopes and you want to
+ You (or some of your colleagues) are using Jetbrains Scopes (e.g: in PyCharm) and you want to
  use them from vim. This plugin allows you to search in the scopes defined
  in your project.
 
