@@ -82,7 +82,7 @@ end
 local setup_scope_commands = function()
 	vim.api.nvim_create_user_command("JBSReset", reset, {})
 	vim.api.nvim_create_user_command("JBSPickScope", pick_scope, {})
-	vim.api.nvim_create_user_command("JBSSearc", search_in_current_scope, {})
+	vim.api.nvim_create_user_command("JBSSearch", search_in_current_scope, {})
 end
 
 local setup = function()

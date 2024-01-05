@@ -28,6 +28,11 @@ use {
 }
 ```
 
+And then, in your `init.lua`:
+
+```lua
+require("jetbrains-scopes")
+```
 
 ## Usage
 
@@ -42,3 +47,10 @@ use {
  ```
  :JBSSearch
  ```
+
+You can attach these commands to a keymap, for example:
+
+```lua
+vim.keymap.set('n', '<leader>jp', ':JBSPick<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>js', ':JBSSearch<CR>', { noremap = true, silent = true })
+```
